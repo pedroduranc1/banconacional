@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.all {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.ml {
+    margin-left: 20px;
+    padding-top: 2px;
+}
+
+.error {
+    background: #DC143C;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.menu {
+    width: 20%;
+    border-right: 1px solid #b2b2b2;
+}
+
+.contenido {
+    display: block;
+    height: 90vh;
+    padding-top: 6%;
+    padding-right: 50px;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.inputt {
+    width: 90%;
+    padding-left: 30px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #b2b2b2;
+}
+
+.btntransferir {
+    margin-left: 30%;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #13ace2;
+    background: transparent;
+    color: #13ace2;
+    padding: 10px 40px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.btntransferir:hover {
+    color: white;
+    background: #13ace2;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.txtp {
+    color: #13ace2;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.txts {
+    color: #13ace2;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.txtc {
+    color: #b2b2b2;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+.txtf {
+    color: #b2b2b2;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-left-arrow {
+    margin-left: 65%;
+}
+
+.flex i {
+    color: #b2b2b2;
+}
+
+.flex i:hover {
+    cursor: pointer;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.usertxt {
+    color: #13ace2;
+    font-weight: normal;
+}
+
+.btn-border {
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.btn {
+    width: 80%;
+    font-size: 20px;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #b2b2b2;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #13ace2;
+    color: white;
+    border-radius: 20px;
+}
+
+.btnb {
+    background: white;
+    color: #13ace2;
+    padding: 10px 30px;
+    border: 1px solid #13ace2;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.activebtnb {
+    color: white;
+    background: #13ace2;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.active {
+    color: #13ace2;
+}
+
+.btn-exit {
+    color: #ff8080;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    font-size: 16px;
+}
+
+.txt-copy {
+    color: #b2b2b2;
+}
